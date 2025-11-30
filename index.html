@@ -1,22 +1,32 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<title>Burgerbutiken Online</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Burgerbutiken Online</title>
+    <meta charset="utf-8"/>
+</head>
 
 <body>
 
-<header>
+<header class="header">
     <meta charset="utf-8"/>
+    <head-img>    
+    <img src="/img/burgerbanner.jpeg">
+    </head-img>
     <h1> Välkommen till Burgerbutikens burgtastiska onlinesida </h1>
 </header>
 
 <main>
 <h2> Välj burgarburgare </h2>
 <h4>Det är här du väljer din burgarburgare!</h4>
-    
-    <div>
 
-        <div style="display: inline-block">
+    <section id="menu">
+
+    <div class="wrapper">
+
+        <div class="burger hus">
             <h3> Husburgare extreme (limited edition) </h3> 
             <img src="/img/images.jpeg" style="height: 200px; width: 300px">
             <ul>
@@ -25,11 +35,13 @@
                 <li>Hus och hem</li>
             </ul>
             <dl>
+                <section class=varning>
                 Varning:
                 <ul>
-                    <li>Kan leda till extrem diaré</li>
+                    <li>Kan leda till extrem graviditet</li>
                     <li>Ej lämplig för gravida eller sjukdomsidkare</li>
                 </ul>  
+                </section>
             </dl>
             <dl>
                 Sammarbete:
@@ -39,7 +51,7 @@
             </dl>
         </div>
 
-        <div style="display: inline-block">
+        <div class="burger sko">
             <h3> Skoburgare (limited edition) </h3>     
             <img src="/img/fotburgare.jpg" style="height: 200px; width: 300px">
             <ul>
@@ -48,11 +60,13 @@
                 <li>Sport och fritid</li>
             </ul>
             <dl>
+                <section class=varning>
                 Varning:
                 <ul>
                     <li>Kan leda till ångest</li>
                     <li>Ej lämplig för gravida eller sjukdomsidkare</li>
                 </ul>  
+                </section>
             </dl>
             <dl>
                 Sammarbete:
@@ -62,7 +76,7 @@
             </dl>
         </div>
     
-        <div style="display: inline-block">
+        <div class="burger bil">
             <h3>Bilburgare (modern edition)</h3>     
             <img src="/img/bilburgare.jpg" style="height: 200px; width: 300px">
             <ul>
@@ -71,11 +85,13 @@
                 <li>Snabbmat</li>
             </ul>
             <dl>
+                <section class=varning>
                 Varning:
                 <ul>
                     <li>Kan leda till förgiftning</li>
                     <li>Ej lämplig för gravida eller sjukdomsidkare</li>
                 </ul>  
+                </section>
             </dl>
             <dl>
                 Sammarbete:
@@ -84,12 +100,13 @@
                 </ul>
             </dl>
         </div>
-    
     </div>
+    </section>
 
-<h3>Kundinformation</h3>
-Här lämnar du dina uppgifter för att beställa din burgarburgare! Fält märkta med * är obligatoriska.
+<h2>Kundinformation</h2>
+Här lämnar du dina uppgifter för att beställa din burgarburgare! <div style="display: inline-block"><section class="obs">Fält märkta med * är obligatoriska.</section></div>
 <h4>Leveransinformation</h4>
+
 <section id="contact">
     <form>
         <p>
@@ -144,14 +161,16 @@ Här lämnar du dina uppgifter för att beställa din burgarburgare! Fält märk
             <input type="radio" id="GDPR" name="gdpr" required="required">
             </input>
         </p>
+    
+    <button type="submit">
+    <img src="/img/skicka.png" style="height: 25px;">
+    Skicka beställning
+    </button>
+
     </form>
-<button type="submit">
-  <img src="/img/skicka.png" style="height: 25px;">
-  Skicka beställning
-</button>
 </section>
 
-    </main>
+</main>
 
 <hr>
 <footer>
