@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
+
+/*All text on the website*/
 body {
-    font-size: 14pt;
+    font-size: 14pt; 
     font-family: arial;
 }
 
+/*In order to get som "air" on the top of the page*/
 header {
     margin-top: 80px;
 }
 
+/*Positioning the h1 inside the header image*/
 header h1 {
     position: absolute;
     margin-top: -76px;
@@ -74,6 +78,7 @@ h1 {
     color: rgb(181, 34, 34);
 }
 
+/*I just want some underlining to my h2 elements*/
 h2 {
     text-decoration: underline;
 }

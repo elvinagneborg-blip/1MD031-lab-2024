@@ -1,21 +1,30 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Husburgare (limited edition)",
+    "price": 10000, 
+    "kCal": 2000000, 
+    "img": "/img/images.jpeg",
     "lactose": false, 
-    "gluten": false
+    "gluten": true,
+    "ingredients": ["Högrevsburgare", "Tryffelmajonnäs"]
 },
+
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Skoburgare", 
+    "price": 200, 
+    "kCal": 2000, 
+    "img": "/img/fotburgare.jpg",
+    "lactose": true, 
+    "gluten": false,
+    "ingredients": ["Skor", "Ost"]
 },
+
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Bilburgare (modern)", 
+    "price": 5000, 
+    "kCal": 50000, 
+    "img": "/img/bilburgare.jpg",
     "lactose": false, 
-    "gluten": false
-}]
+    "gluten": false,
+    "ingredients": ["Bil", "hastighet"]
+}
+]
