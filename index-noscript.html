@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>Burgerbutiken Online</title>
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+
+<header class="header">
+    <meta charset="utf-8"/>
+    <head-img>    
+    <img src="/img/burgerbanner.jpeg">
+    </head-img>
+    <h1> Välkommen till Burgerbutikens burgtastiska onlinesida </h1>
+</header>
+
+<main>
+<h2> Välj burgarburgare </h2>
+<h4>Det är här du väljer din burgarburgare!</h4>
+
+    <section id="menu">
+
+    <div class="wrapper">
+
+        <div class="burger hus">
+            <h3> Husburgare extreme (limited edition) </h3> 
+            <img src="/img/images.jpeg" style="height: 200px; width: 300px">
+            <ul>
+                <li>1 000 000 g Högrevsburgare</li>
+                <li>1 000 g Tryffelmajonnäs</li>
+                <li>Hus och hem</li>
+            </ul>
+            <dl>
+                <section class=varning>
+                Varning:
+                <ul>
+                    <li>Kan leda till extrem graviditet</li>
+                    <li>Ej lämplig för gravida eller sjukdomsidkare</li>
+                </ul>  
+                </section>
+            </dl>
+            <dl>
+                Sammarbete:
+                <ul>
+                    <li>Skapad i stolt sammarbete med Burgers bostäder AB</li>
+                </ul>
+            </dl>
+        </div>
+
+        <div class="burger sko">
+            <h3> Skoburgare (limited edition) </h3>     
+            <img src="/img/fotburgare.jpg" style="height: 200px; width: 300px">
+            <ul>
+                <li>Fotsvett</li>
+                <li>Adrenalin</li>
+                <li>Sport och fritid</li>
+            </ul>
+            <dl>
+                <section class=varning>
+                Varning:
+                <ul>
+                    <li>Kan leda till ångest</li>
+                    <li>Ej lämplig för gravida eller sjukdomsidkare</li>
+                </ul>  
+                </section>
+            </dl>
+            <dl>
+                Sammarbete:
+                <ul>
+                    <li>Skapad i stolt sammarbete med Fotfetish AB</li>
+                </ul>
+            </dl>
+        </div>
+    
+        <div class="burger bil">
+            <h3>Bilburgare (modern edition)</h3>     
+            <img src="/img/bilburgare.jpg" style="height: 200px; width: 300px">
+            <ul>
+                <li>Snabba kalorier</li>
+                <li>Avgaser</li>
+                <li>Snabbmat</li>
+            </ul>
+            <dl>
+                <section class=varning>
+                Varning:
+                <ul>
+                    <li>Kan leda till förgiftning</li>
+                    <li>Ej lämplig för gravida eller sjukdomsidkare</li>
+                </ul>  
+                </section>
+            </dl>
+            <dl>
+                Sammarbete:
+                <ul>
+                    <li>Skapad i stolt sammarbete med Volvo AB</li>
+                </ul>
+            </dl>
+        </div>
+    </div>
+    </section>
+
+<h2>Kundinformation</h2>
+Här lämnar du dina uppgifter för att beställa din burgarburgare! <div style="display: inline-block"><section class="obs">Fält märkta med * är obligatoriska.</section></div>
+<h4>Leveransinformation</h4>
+
+<section id="contact">
+    <form>
+        <p>
+        <label for="kön">Kön *</label><br>
+        <div>
+            <div style="display: inline-block">
+                <label for="man">Man</label><br>
+                <input type="radio" id="man" name="gender">
+            </div>
+            <div style="display: inline-block">
+                <label for="kvinna">Kvinna</label><br>
+                <input type="radio" id="kvinna" name="gender">
+            </div>
+            <div style="display: inline-block">
+                <label for="annat">Annat</label><br>
+                <input type="radio" id="annat" name="gender" checked="checked">
+            </div>
+        </div>
+        </p>
+        <p>
+            <label for="förnamn">Förnamn *</label><br>
+            <input type="text" id="förnamn" name="fn" required="required" placeholder="förnamn">
+        </p>
+        <p>
+            <label for="efternamn">Efternamn *</label><br>
+            <input type="text" id="efternamn" name="ln" required="required" placeholder="efternamn">
+        </p>
+        <p>
+            <label for="email">E-post *</label><br>
+            <input type="email" id="email" name="em" required="required" placeholder="epostadress">
+        </p>
+        <p>
+            <label for="gatunamn">Gatunamn *</label><br>
+            <input type="text" id="gatunamn" name="ad" required="required" placeholder="gatunamn">
+        </p>
+        <p>
+            <label for="husnummer">Husnummer *</label><br>
+            <input type="number" id="husnummer" name="pn" required="required" placeholder="husnummer">
+        </p>
+        <p>
+            <label for="betalningsmetod">Betalningsmetod *</label><br>
+            <select id="betalningsmetod" name="betalningsmetod" required="required">
+            <option selected="selected">Korvar</option>
+            <option>Levande lam</option>
+            <option>Swosh</option>
+            <option>Grus</option>
+            <option>Komplimanger</option>
+            </select>
+        </p>
+        <p>
+            <label for="GDPR">Jag godkänner att mina uppgifter sparas enligt GDPR *</label><br>
+            <input type="radio" id="GDPR" name="gdpr" required="required">
+            </input>
+        </p>
+    
+    <button type="submit">
+    <img src="/img/skicka.png" style="height: 25px;">
+    Skicka beställning
+    </button>
+
+    </form>
+</section>
+
+</main>
+
+<hr>
+<footer>
+    &copy; 2025 Burgarbutiken AB.
+</footer>
+
+</body>
+    
+</html>
